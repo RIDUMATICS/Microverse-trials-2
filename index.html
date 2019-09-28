@@ -4,54 +4,56 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    Hello World, we are software developers!
     <h1 id="title">Survey Form</h1>
-    <p id="description">Let us know how we can improve freeCodeCamp</p>
-	<form id="survey-form">
-	<label id="name-label">* Name <input id="name" type="text" required placeholder="Enter your name"></label>
-	<label id="email-label">* Email <input type="email" id="email" placeholder="Enter your Email" required></label>
-	<label id="number-label">* Age <input type="number" id="number" placeholder="Age" required min="18" max="100"></label>
-	<label>Which option describes your current role?<select id="dropdown">
-		<option value="Student">Student</option>
-		<option value="Full time job">Full time job</option>
-		<option value="Other">Other</option>
-    </select></label>
-    <div>
-        How likely is that you would recommend freeCodeCamp to a friend? 
-        <label>
-          <input type="radio" name="recommend" value="Definitely">
-          Definitely 
-        </label>
-        <label>
-          <input type="radio" name="recommend" value="Maybe">
-          Maybe
-        </label>
-        <label>
-          <input type="radio" name="recommend" value="Not Sure">
-          Not Sure
-        </label>
-    </div>
-
-    <div>
-        Things that should be improved in the future
-        (Check all that apply):
-        <label><input type="checkbox" name="improved" value="Front-end Projects"> Front-end Projects</label>
-        <label><input type="checkbox" name="improved" value="Back-end Projects"> Back-end Projects</label>
-        <label><input type="checkbox" name="improved" value="Data Visualization"> Data Visualization</label>
-        <label><input type="checkbox" name="improved" value="Challenges"> Challenges</label>
-        <label><input type="checkbox" name="improved" value="Open Source Community"> Open Source Community</label>
-        <label><input type="checkbox" name="improved" value="Gitter help rooms"> Gitter help rooms</label>
-    </div>
-	
-	<label>Any Comments or Suggestions?<textarea placeholder="Enter your comments here..."></textarea></label>
-	
-	<button id="submit">Submit</button>
-	
-	</form>
+    <section id="container">
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form id="survey-form">
+        <label id="name-label">* Name <input id="name" type="text" required placeholder="Enter your name"></label>
+        <label id="email-label">* Email <input type="email" id="email" placeholder="Enter your Email" required></label>
+        <label id="number-label">* Age <input type="number" id="number" placeholder="Age" required min="18" max="100"></label>
+        <label>Which option describes your current role?<select id="dropdown">
+          <option value="Student">Student</option>
+          <option value="Full time job">Full time job</option>
+          <option value="Other">Other</option>
+          </select></label>
+          <div>
+              How likely is that you would recommend freeCodeCamp to a friend? 
+              <label>
+                <input type="radio" name="recommend" value="Definitely">
+                Definitely 
+              </label>
+              <label>
+                <input type="radio" name="recommend" value="Maybe">
+                Maybe
+              </label>
+              <label>
+                <input type="radio" name="recommend" value="Not Sure">
+                Not Sure
+              </label>
+          </div>
+      
+          <div>
+              Things that should be improved in the future
+              (Check all that apply):
+              <label><input type="checkbox" name="improved" value="Front-end Projects"> Front-end Projects</label>
+              <label><input type="checkbox" name="improved" value="Back-end Projects"> Back-end Projects</label>
+              <label><input type="checkbox" name="improved" value="Data Visualization"> Data Visualization</label>
+              <label><input type="checkbox" name="improved" value="Challenges"> Challenges</label>
+              <label><input type="checkbox" name="improved" value="Open Source Community"> Open Source Community</label>
+              <label><input type="checkbox" name="improved" value="Gitter help rooms"> Gitter help rooms</label>
+          </div>
+        
+        <label>Any Comments or Suggestions?<textarea placeholder="Enter your comments here..."></textarea></label>
+        
+        <button id="submit">Submit</button>
+        
+        </form>
+    </section>
 	
     <!--
 
